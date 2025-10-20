@@ -342,10 +342,10 @@ function displayResult() {
         sound2.play();
     } else if (sum2 > sum1) {
         document.querySelectorAll("h3")[1].innerHTML = "Defeated😥 You were defeated by " + (sum2 - sum1) + " runs";
-        sound2.addEventListener("ended",function(){
+        //sound2.addEventListener("ended",function(){
         var sound3 = new Audio("sounds/we-need-to-try-again-child-378872.mp3");
         sound3.play();
-        });
+        //});
     } else {
         document.querySelectorAll("h3")[1].innerHTML = "Match Tie🤝";
     }
@@ -486,10 +486,10 @@ function displayResult() {
         sound2.play();
     } else if (sum2 > sum1) {
         document.querySelectorAll("h3")[1].innerHTML = "Defeated😥 You were defeated by " + (sum2 - sum1) + " runs";
-        sound2.addEventListener("ended",function(){
+       // sound2.addEventListener("ended",function(){
         var sound3 = new Audio("sounds/we-need-to-try-again-child-378872.mp3");
         sound3.play();
-        });
+        //});
     } else {
         document.querySelectorAll("h3")[1].innerHTML = "Match Tie🤝";
     }
