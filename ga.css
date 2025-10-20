@@ -1,0 +1,36 @@
+.page {
+  background: linear-gradient(120deg, GREEN, BROWN); /* Orange-pink gradient */
+  color: white;.
+
+}
+
+/* Game Title */
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffdd00;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.score{
+  background-color:BLACK;
+}
+.num{
+  height: 200px;
+  width: 200px;
+}
+
+.but{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffdd00;
+}
+
+.b{
+  background-color: red;
+}
